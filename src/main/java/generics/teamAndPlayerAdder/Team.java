@@ -2,7 +2,7 @@ package generics.teamAndPlayerAdder;
 
 import java.util.ArrayList;
 
-public class Team<T> {
+public class Team<T extends Player> {
     private String teamName;
 
     public Team(String name){
